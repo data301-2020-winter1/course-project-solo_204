@@ -1,0 +1,1 @@
+This folder will have the analysis of all processed and raw data and will aim to draw meaningful conclusions from the data. 

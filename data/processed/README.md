@@ -1,0 +1,1 @@
+This folder contains all processed data to be used for analysis. 

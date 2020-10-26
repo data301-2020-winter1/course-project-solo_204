@@ -1,0 +1,1 @@
+This folder contains all of the raw data used for the project before processing and analyzing. 
