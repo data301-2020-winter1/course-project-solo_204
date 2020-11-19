@@ -1,1 +1,6 @@
-This folder will contain all images used in the project including: cited stock images, custom graphs and plots.
+## Images Folder
+
+This folder will contain **all** images used in the project including: 
+
+- cited stock images 
+- custom graphs and plots
