@@ -7,9 +7,16 @@
 
 Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
 
+### Milestone 4
+
+[Here](https://youtu.be/SiCFAcJ1NYY) is the link to my Milestone 4.
+The tableau file can be found in the Analysis folder under **"Tableau File.twb"**
+
 ## Describe your topic/interest in about 150-200 words
 
-My hope is that I can use data analysis to come up with a conclusion about certain markets beating the average return of the S&P 500 over a multi year period. My hypothesis is that investing in certain industies that will benefit from future macroeconomic events and trends is a better investing strategy than investing broadly the entire S&P 500. I hope to be able to show this through analyzing the data. 
+My hope is that I can use data analysis to come up with a conclusion about certain markets beating the average return of the S&P 500 over a multi year period. My hypothesis is that investing in certain industies that will benefit from future macroeconomic events and trends is a better investing strategy than investing broadly the entire S&P 500. I hope to be able to show this through analyzing the data.  
+
+My second research question is whether there is any correlation bewteen the volatility of a stock and its likelyhood to yield aboe average returns. 
 
 My interest in this topic in general comes from my work experience as the Digital Marketing Manager for a private equity company. There I spoke with hundreds of investors that were happy to give out stock tips, though most did not have much to back up there advice with. 
 
@@ -30,6 +37,8 @@ The purpose of collecting the data set is to come up with a meaningful model tha
 
 The dataset that I am using was compiled by **Cam Nugent** on kaggle and can be found [here](https://www.kaggle.com/camnugent/sandp500?select=all_stocks_5yr.csv).
 
+I also used a secondary data set that can be found [here](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies). This data set was useful because it allowed me to sort the original dataset into different industries and sub-industries to analyze trends in different areas. 
+
 ## References
 
-{Add your stuff here}
+Huge shoutout to https://stackoverflow.com/ and everyone there that knows far more about Python, Seaborn, and Pandas than me. 

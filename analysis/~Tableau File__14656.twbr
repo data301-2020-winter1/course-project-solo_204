@@ -1,0 +1,1072 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CustomReferenceLineTooltips />
+    <Heatmap />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <SpecificWebTargetsForActions />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet2 (daily_gain as excel)' inline='true' name='federated.05m4dpf0b8ze5y13d3z6s04b0u8h' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='daily_gain as excel' name='excel-direct.1pm48pf0f7y3v70zrn9dp0mh43le'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/wrixo/Desktop/School Folder/DATA 301/course-project-solo_204/data/processed/daily_gain as excel.xlsx' interpretationMode='0' password='' port='0' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1pm48pf0f7y3v70zrn9dp0mh43le' name='Sheet2' table='[Sheet2$]' type='table'>
+          <columns gridOrigin='A1:L434:no:A1:L434:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Column1' ordinal='0' />
+            <column datatype='string' name='GICS Sector' ordinal='1' />
+            <column datatype='string' name='GICS Sub-Industry' ordinal='2' />
+            <column datatype='string' name='Name' ordinal='3' />
+            <column datatype='real' name='open' ordinal='4' />
+            <column datatype='real' name='high' ordinal='5' />
+            <column datatype='real' name='low' ordinal='6' />
+            <column datatype='real' name='close' ordinal='7' />
+            <column datatype='real' name='daily_gain' ordinal='8' />
+            <column datatype='real' name='daily_volatility' ordinal='9' />
+            <column datatype='real' name='daily_gain%' ordinal='10' />
+            <column datatype='real' name='volatility%' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1pm48pf0f7y3v70zrn9dp0mh43le' name='Sheet2' table='[Sheet2$]' type='table'>
+          <columns gridOrigin='A1:L434:no:A1:L434:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Column1' ordinal='0' />
+            <column datatype='string' name='GICS Sector' ordinal='1' />
+            <column datatype='string' name='GICS Sub-Industry' ordinal='2' />
+            <column datatype='string' name='Name' ordinal='3' />
+            <column datatype='real' name='open' ordinal='4' />
+            <column datatype='real' name='high' ordinal='5' />
+            <column datatype='real' name='low' ordinal='6' />
+            <column datatype='real' name='close' ordinal='7' />
+            <column datatype='real' name='daily_gain' ordinal='8' />
+            <column datatype='real' name='daily_volatility' ordinal='9' />
+            <column datatype='real' name='daily_gain%' ordinal='10' />
+            <column datatype='real' name='volatility%' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L434:no:A1:L434:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Column1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Column1]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Column1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GICS Sector</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GICS Sector]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>GICS Sector</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GICS Sub-Industry</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GICS Sub-Industry]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>GICS Sub-Industry</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[open]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>open</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>high</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[high]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>high</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>low</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[close]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>close</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daily_gain</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[daily_gain]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>daily_gain</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daily_volatility</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[daily_volatility]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>daily_volatility</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daily_gain%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[daily_gain%]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>daily_gain%</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>volatility%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[volatility%]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>volatility%</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_447D06D76C634374BC5C509884A86AE8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+      <column datatype='string' name='[GICS Sub-Industry]' role='dimension' type='nominal' />
+      <column caption='Ticker' datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet2' datatype='table' name='[__tableau_internal_object_id__].[Sheet2_447D06D76C634374BC5C509884A86AE8]' role='measure' type='quantitative' />
+      <column caption='Close' datatype='real' name='[close]' role='measure' type='quantitative' />
+      <column caption='Daily Gain%' datatype='real' name='[daily_gain%]' role='measure' type='quantitative' />
+      <column caption='Daily Gain' datatype='real' name='[daily_gain]' role='measure' type='quantitative' />
+      <column caption='Daily Volatility' datatype='real' name='[daily_volatility]' role='measure' type='quantitative' />
+      <column caption='High' datatype='real' name='[high]' role='measure' type='quantitative' />
+      <column caption='Low' datatype='real' name='[low]' role='measure' type='quantitative' />
+      <column caption='Open' datatype='real' name='[open]' role='measure' type='quantitative' />
+      <column caption='Volatility%' datatype='real' name='[volatility%]' role='measure' type='quantitative' />
+      <group caption='Action (GICS Sector)' hidden='true' name='[Action (GICS Sector)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[GICS Sector]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (GICS Sub-Industry)' hidden='true' name='[Action (GICS Sub-Industry)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[GICS Sub-Industry]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet2' id='Sheet2_447D06D76C634374BC5C509884A86AE8'>
+            <properties context=''>
+              <relation connection='excel-direct.1pm48pf0f7y3v70zrn9dp0mh43le' name='Sheet2' table='[Sheet2$]' type='table'>
+                <columns gridOrigin='A1:L434:no:A1:L434:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Column1' ordinal='0' />
+                  <column datatype='string' name='GICS Sector' ordinal='1' />
+                  <column datatype='string' name='GICS Sub-Industry' ordinal='2' />
+                  <column datatype='string' name='Name' ordinal='3' />
+                  <column datatype='real' name='open' ordinal='4' />
+                  <column datatype='real' name='high' ordinal='5' />
+                  <column datatype='real' name='low' ordinal='6' />
+                  <column datatype='real' name='close' ordinal='7' />
+                  <column datatype='real' name='daily_gain' ordinal='8' />
+                  <column datatype='real' name='daily_volatility' ordinal='9' />
+                  <column datatype='real' name='daily_gain%' ordinal='10' />
+                  <column datatype='real' name='volatility%' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Daily Gain by GICS Sector' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Daily Gain by GICS Sub-Industry' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Data Source' name='[Action3]'>
+      <source dashboard='Dashboard 1' type='sheet' />
+      <link caption='' expression='https://www.kaggle.com/camnugent/sandp500?select=all_stocks_5yr.csv'>
+        <url-action-type>browser</url-action-type>
+      </link>
+    </action>
+    <action caption='Yahoo Finance' name='[Action4]'>
+      <source dashboard='Dashboard 1' type='sheet' />
+      <link caption='' expression='https://www.finance.yahoo.com/'>
+        <url-action-type>browser</url-action-type>
+      </link>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Daily Gain vs Average Volatility'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>The density plot above shows the relationship between the average daily gain and average daily volatility. The plot can be filtered by Sector, Sub-Industry and Ticker. The orange dotted lines represent the average for the current selection, while the black solid lines represent the average for all 433 Stocks. 
+
+The volatility was measued by the daily high stock price minus the daily low stock price divided by closing price of the stock for a given day. The average of this result was taken over all available dates in the data set. 
+
+Note: There correlation between volatility and daily gain was not strong enough to draw a meaningful conclusion.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (daily_gain as excel)' name='federated.05m4dpf0b8ze5y13d3z6s04b0u8h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05m4dpf0b8ze5y13d3z6s04b0u8h'>
+            <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+            <column datatype='string' name='[GICS Sub-Industry]' role='dimension' type='nominal' />
+            <column caption='Ticker' datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column caption='Daily Gain%' datatype='real' name='[daily_gain%]' role='measure' type='quantitative' />
+            <column-instance column='[GICS Sector]' derivation='None' name='[none:GICS Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GICS Sub-Industry]' derivation='None' name='[none:GICS Sub-Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[daily_gain%]' derivation='None' name='[none:daily_gain%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[volatility%]' derivation='None' name='[none:volatility%:qk]' pivot='key' type='quantitative' />
+            <column caption='Volatility%' datatype='real' name='[volatility%]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sector:nk]'>
+            <groupfilter function='level-members' level='[none:GICS Sector:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sub-Industry:nk]'>
+            <groupfilter function='level-members' level='[none:GICS Sub-Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:Name:nk]'>
+            <groupfilter function='level-members' level='[none:Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sector:nk]</column>
+            <column>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sub-Industry:nk]</column>
+            <column>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:volatility%:qk]' scope='cols' value='Average Daily Volatility (%)' />
+            <format attr='title' class='0' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:daily_gain%:qk]' scope='rows' value='Average Daily Gain (%)' />
+            <encoding attr='space' class='0' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:volatility%:qk]' field-type='quantitative' max='4.3085373724603642' min='0.96630312144905339' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:daily_gain%:qk]' field-type='quantitative' max='0.1951937718403931' min='-0.17188501397852671' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dotted' />
+            <format attr='stroke-size' id='refline1' value='4' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dotted' />
+            <format attr='stroke-size' id='refline0' value='4' />
+            <format attr='fill-above' id='refline2' value='#00000000' />
+            <format attr='fill-below' id='refline2' value='#00000000' />
+            <format attr='stroke-color' id='refline2' value='#000000' />
+            <format attr='stroke-color' id='refline1' value='#db6d00' />
+            <format attr='stroke-color' id='refline0' value='#db6d00' />
+            <format attr='fill-above' id='refline3' value='#00000000' />
+            <format attr='fill-below' id='refline3' value='#00000000' />
+            <format attr='stroke-color' id='refline3' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <reference-line axis-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:volatility%:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='value' probability='95' scope='per-table' tooltip='&lt;Value&gt;% - Average Daily Volatility of Current Selection' tooltip-type='custom' value-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:volatility%:qk]' z-order='1' />
+            <reference-line axis-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:daily_gain%:qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='none' probability='95' scope='per-table' tooltip='&lt;Value&gt;% - Average Daily Gain of Current Selection' tooltip-type='custom' value-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:daily_gain%:qk]' z-order='2' />
+            <reference-line axis-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:volatility%:qk]' enable-instant-analytics='true' formula='constant' id='refline2' label-type='automatic' scope='per-table' tooltip-type='none' value='1.8759999999999999' value-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:volatility%:qk]' z-order='3' />
+            <reference-line axis-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:daily_gain%:qk]' enable-instant-analytics='true' formula='constant' id='refline3' label-type='automatic' scope='per-table' tooltip-type='none' value='0.029700000000000001' value-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:daily_gain%:qk]' z-order='4' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='circle' />
+                <format attr='size' value='0.99950277805328369' />
+                <format attr='density-kernel-size' value='0.86756908893585205' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:daily_gain%:qk]</rows>
+        <cols>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:volatility%:qk]</cols>
+      </table>
+      <simple-id uuid='{4E7064AF-C7E4-4527-A653-374DB02F558A}' />
+    </worksheet>
+    <worksheet name='Daily Gain by Company'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>To filter the chart click on bars of the two charts to the left. 
+The black line represents the mean daily gain of all 433 companies. 
+The orange dotted line represents the mean daily gain of the currently selected companies.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (daily_gain as excel)' name='federated.05m4dpf0b8ze5y13d3z6s04b0u8h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05m4dpf0b8ze5y13d3z6s04b0u8h'>
+            <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+            <column datatype='string' name='[GICS Sub-Industry]' role='dimension' type='nominal' />
+            <column caption='Ticker' datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column caption='Daily Gain%' datatype='real' name='[daily_gain%]' role='measure' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[daily_gain%]' derivation='Sum' name='[sum:daily_gain%:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[Action (GICS Sector)]'>
+            <groupfilter function='level-members' level='[GICS Sector]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[Action (GICS Sub-Industry)]'>
+            <groupfilter function='level-members' level='[GICS Sub-Industry]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:Name:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;A&quot;</bucket>
+              <bucket>&quot;ABBV&quot;</bucket>
+              <bucket>&quot;ABC&quot;</bucket>
+              <bucket>&quot;ABT&quot;</bucket>
+              <bucket>&quot;ADM&quot;</bucket>
+              <bucket>&quot;ALGN&quot;</bucket>
+              <bucket>&quot;ALXN&quot;</bucket>
+              <bucket>&quot;AMGN&quot;</bucket>
+              <bucket>&quot;ANTM&quot;</bucket>
+              <bucket>&quot;BAX&quot;</bucket>
+              <bucket>&quot;BDX&quot;</bucket>
+              <bucket>&quot;BF.B&quot;</bucket>
+              <bucket>&quot;BIIB&quot;</bucket>
+              <bucket>&quot;BMY&quot;</bucket>
+              <bucket>&quot;BSX&quot;</bucket>
+              <bucket>&quot;CAG&quot;</bucket>
+              <bucket>&quot;CAH&quot;</bucket>
+              <bucket>&quot;CERN&quot;</bucket>
+              <bucket>&quot;CHD&quot;</bucket>
+              <bucket>&quot;CI&quot;</bucket>
+              <bucket>&quot;CL&quot;</bucket>
+              <bucket>&quot;CLX&quot;</bucket>
+              <bucket>&quot;CNC&quot;</bucket>
+              <bucket>&quot;COO&quot;</bucket>
+              <bucket>&quot;COST&quot;</bucket>
+              <bucket>&quot;CPB&quot;</bucket>
+              <bucket>&quot;CVS&quot;</bucket>
+              <bucket>&quot;DGX&quot;</bucket>
+              <bucket>&quot;DHR&quot;</bucket>
+              <bucket>&quot;DVA&quot;</bucket>
+              <bucket>&quot;EL&quot;</bucket>
+              <bucket>&quot;EW&quot;</bucket>
+              <bucket>&quot;GILD&quot;</bucket>
+              <bucket>&quot;GIS&quot;</bucket>
+              <bucket>&quot;HCA&quot;</bucket>
+              <bucket>&quot;HOLX&quot;</bucket>
+              <bucket>&quot;HRL&quot;</bucket>
+              <bucket>&quot;HSIC&quot;</bucket>
+              <bucket>&quot;HSY&quot;</bucket>
+              <bucket>&quot;HUM&quot;</bucket>
+              <bucket>&quot;IDXX&quot;</bucket>
+              <bucket>&quot;ILMN&quot;</bucket>
+              <bucket>&quot;INCY&quot;</bucket>
+              <bucket>&quot;IQV&quot;</bucket>
+              <bucket>&quot;ISRG&quot;</bucket>
+              <bucket>&quot;JNJ&quot;</bucket>
+              <bucket>&quot;K&quot;</bucket>
+              <bucket>&quot;KHC&quot;</bucket>
+              <bucket>&quot;KMB&quot;</bucket>
+              <bucket>&quot;KO&quot;</bucket>
+              <bucket>&quot;KR&quot;</bucket>
+              <bucket>&quot;LH&quot;</bucket>
+              <bucket>&quot;LLY&quot;</bucket>
+              <bucket>&quot;MCK&quot;</bucket>
+              <bucket>&quot;MDLZ&quot;</bucket>
+              <bucket>&quot;MDT&quot;</bucket>
+              <bucket>&quot;MKC&quot;</bucket>
+              <bucket>&quot;MNST&quot;</bucket>
+              <bucket>&quot;MO&quot;</bucket>
+              <bucket>&quot;MRK&quot;</bucket>
+              <bucket>&quot;MTD&quot;</bucket>
+              <bucket>&quot;PEP&quot;</bucket>
+              <bucket>&quot;PFE&quot;</bucket>
+              <bucket>&quot;PG&quot;</bucket>
+              <bucket>&quot;PKI&quot;</bucket>
+              <bucket>&quot;PM&quot;</bucket>
+              <bucket>&quot;PRGO&quot;</bucket>
+              <bucket>&quot;REGN&quot;</bucket>
+              <bucket>&quot;RMD&quot;</bucket>
+              <bucket>&quot;SJM&quot;</bucket>
+              <bucket>&quot;STZ&quot;</bucket>
+              <bucket>&quot;SYK&quot;</bucket>
+              <bucket>&quot;SYY&quot;</bucket>
+              <bucket>&quot;TAP&quot;</bucket>
+              <bucket>&quot;TMO&quot;</bucket>
+              <bucket>&quot;TSN&quot;</bucket>
+              <bucket>&quot;UHS&quot;</bucket>
+              <bucket>&quot;UNH&quot;</bucket>
+              <bucket>&quot;VAR&quot;</bucket>
+              <bucket>&quot;VRTX&quot;</bucket>
+              <bucket>&quot;WAT&quot;</bucket>
+              <bucket>&quot;WBA&quot;</bucket>
+              <bucket>&quot;WMT&quot;</bucket>
+              <bucket>&quot;XRAY&quot;</bucket>
+              <bucket>&quot;ZBH&quot;</bucket>
+              <bucket>&quot;ZTS&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[Action (GICS Sector)]</column>
+            <column>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[Action (GICS Sub-Industry)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' scope='cols' value='Average Daily Gain (%)' />
+            <encoding attr='space' class='0' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' field-type='quantitative' max='0.19237149286969746' min='-0.16906273500783103' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='stroke-color' id='refline1' value='#e15759' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='solid' />
+            <format attr='stroke-size' id='refline1' value='5' />
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='fill-above' id='refline3' value='#00000000' />
+            <format attr='fill-below' id='refline3' value='#00000000' />
+            <format attr='fill-above' id='refline2' value='#00000000' />
+            <format attr='fill-below' id='refline2' value='#00000000' />
+            <format attr='line-visibility' id='refline2' value='on' />
+            <format attr='line-pattern-only' id='refline2' value='dotted' />
+            <format attr='stroke-size' id='refline2' value='5' />
+            <format attr='stroke-color' id='refline3' value='#000000' />
+            <format attr='stroke-size' id='refline3' value='3' />
+            <format attr='stroke-color' id='refline2' value='#db6d00' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:Name:nk]' value='Ticker Symbol&#10;' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' enable-instant-analytics='false' formula='average' id='refline2' label-type='none' probability='0' scope='per-table' tooltip='&lt;Value&gt;% - Avg Daily Gain of Selected Stocks' tooltip-type='custom' value-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' z-order='1' />
+            <reference-line axis-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' enable-instant-analytics='true' formula='constant' id='refline3' label-type='none' scope='per-table' tooltip='&lt;Value&gt;% - Avg Daily Gain of all 433 Stocks' tooltip-type='custom' value='0.029700000000000001' value-column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:Name:nk]</rows>
+        <cols>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]</cols>
+      </table>
+      <simple-id uuid='{53CE13FC-3F01-4A88-8C0D-C159FEE15651}' />
+    </worksheet>
+    <worksheet name='Daily Gain by GICS Sector'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (daily_gain as excel)' name='federated.05m4dpf0b8ze5y13d3z6s04b0u8h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05m4dpf0b8ze5y13d3z6s04b0u8h'>
+            <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+            <column datatype='string' name='[GICS Sub-Industry]' role='dimension' type='nominal' />
+            <column caption='Daily Gain%' datatype='real' name='[daily_gain%]' role='measure' type='quantitative' />
+            <column-instance column='[GICS Sector]' derivation='None' name='[none:GICS Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[daily_gain%]' derivation='Sum' name='[sum:daily_gain%:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[Action (GICS Sub-Industry)]'>
+            <groupfilter function='level-members' level='[GICS Sub-Industry]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sector:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[Action (GICS Sub-Industry)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' scope='cols' value='Average Daily Gain (%)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sector:nk]</rows>
+        <cols>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]</cols>
+      </table>
+      <simple-id uuid='{1E367B2C-7A93-432F-B3BE-9ED2AEAB1FE9}' />
+    </worksheet>
+    <worksheet name='Daily Gain by GICS Sub-Industry'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run fontsize='8'>The above table shows the average daily gain in percent of each GICS sub-industry. </run>
+            <run>Æ&#10;</run>
+            <run fontsize='8'>To sort the table alphabetically, click on &quot;Sub-Industry Column&quot;.</run>
+            <run>Æ&#10;</run>
+            <run fontsize='8'>To sort by value, click above the bars. </run>
+            <run>Æ&#10;</run>
+            <run fontsize='8'>To filter this table, click on one of the bars in the &quot;Daily Gain by GICS Sector&quot; table.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (daily_gain as excel)' name='federated.05m4dpf0b8ze5y13d3z6s04b0u8h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05m4dpf0b8ze5y13d3z6s04b0u8h'>
+            <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+            <column datatype='string' name='[GICS Sub-Industry]' role='dimension' type='nominal' />
+            <column caption='Daily Gain%' datatype='real' name='[daily_gain%]' role='measure' type='quantitative' />
+            <column-instance column='[GICS Sub-Industry]' derivation='None' name='[none:GICS Sub-Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[daily_gain%]' derivation='Sum' name='[sum:daily_gain%:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[Action (GICS Sector)]'>
+            <groupfilter function='level-members' level='[GICS Sector]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[Action (GICS Sector)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' scope='cols' value='Average Daily Gain (%)' />
+            <format attr='height' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' value='52' />
+            <encoding attr='space' class='0' field='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]' field-type='quantitative' max='0.81164819342485495' min='-0.2172489303630262' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sub-Industry:nk]</rows>
+        <cols>[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[sum:daily_gain%:qk]</cols>
+      </table>
+      <simple-id uuid='{16D51735-8BB4-486C-B264-D6DEC2056831}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='83282' id='12' param='horz' w='99166' x='417' y='15951'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='83282' id='10' w='99166' x='417' y='15951'>
+              <zone h='37372' id='3' name='Daily Gain by GICS Sector' w='49580' x='417' y='15951'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='83282' id='6' name='Daily Gain by Company' show-caption='true' w='49586' x='49997' y='15951'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45910' id='7' name='Daily Gain by GICS Sub-Industry' show-caption='true' w='49580' x='417' y='53323'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='15184' id='13' w='99166' x='417' y='767'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontsize='12'>Welcome! </run>
+              <run fontcolor='#000000' fontsize='12'>This dashboard is set up so that you, the user, can learn about the historic performance the different sectors and sub-industries that make up the S&amp;P 500 Index. This dashboard is not meant to be used as a predictive model, but is here to show which industries performed the best in the five year period from February 2013 - February 2018. To filter the &quot;Daily Gain by Company&quot; chart, click on a sector or subindustry on one of the other two charts.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='15' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98142' id='14' param='vert' w='99034' x='483' y='929'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='15136' id='13' w='99034' x='483' y='929'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontsize='12'>Welcome! </run>
+                    <run fontcolor='#000000' fontsize='12'>This dashboard is set up so that you, the user, can learn about the historic performance the different sectors and sub-industries that make up the S&amp;P 500 Index. This dashboard is not meant to be used as a predictive model, but is here to show which industries performed the best in the five year period from February 2013 - February 2018. To filter the &quot;Daily Gain by Company&quot; chart, click on a sector or subindustry on one of the other two charts.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37251' id='3' is-fixed='true' name='Daily Gain by GICS Sector' w='49516' x='483' y='16065'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='83006' id='6' is-fixed='true' name='Daily Gain by Company' show-caption='true' w='49518' x='49999' y='16065'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45755' id='7' is-fixed='true' name='Daily Gain by GICS Sub-Industry' show-caption='true' w='49516' x='483' y='53316'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9C27071D-A99C-4936-9C7F-BFB124203F16}' />
+    </dashboard>
+    <dashboard name='Dashboard 2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Sheet2 (daily_gain as excel)' name='federated.05m4dpf0b8ze5y13d3z6s04b0u8h' />
+      </datasources>
+      <datasource-dependencies datasource='federated.05m4dpf0b8ze5y13d3z6s04b0u8h'>
+        <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+        <column datatype='string' name='[GICS Sub-Industry]' role='dimension' type='nominal' />
+        <column caption='Ticker' datatype='string' name='[Name]' role='dimension' type='nominal' />
+        <column-instance column='[GICS Sector]' derivation='None' name='[none:GICS Sector:nk]' pivot='key' type='nominal' />
+        <column-instance column='[GICS Sub-Industry]' derivation='None' name='[none:GICS Sub-Industry:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' fixed-size='750' h='98466' id='5' is-fixed='true' w='82305' x='417' y='767'>
+            <zone h='98466' id='3' name='Average Daily Gain vs Average Volatility' show-caption='true' w='82305' x='417' y='767'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='98466' id='6' is-fixed='true' param='vert' w='16861' x='82722' y='767'>
+            <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='5848' id='8' mode='checkdropdown' name='Average Daily Gain vs Average Volatility' param='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sector:nk]' values='relevant' w='16861' x='82722' y='767'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='5848' id='9' mode='checkdropdown' name='Average Daily Gain vs Average Volatility' param='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sub-Industry:nk]' values='relevant' w='16861' x='82722' y='6615'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='5848' id='10' mode='checkdropdown' name='Average Daily Gain vs Average Volatility' param='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:Name:nk]' values='relevant' w='16861' x='82722' y='12463'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='12' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98142' id='11' param='vert' w='99034' x='483' y='929'>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='7085' id='8' mode='checkdropdown' name='Average Daily Gain vs Average Volatility' param='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sector:nk]' values='relevant' w='16838' x='82679' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='7085' id='9' mode='checkdropdown' name='Average Daily Gain vs Average Volatility' param='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:GICS Sub-Industry:nk]' values='relevant' w='16838' x='82679' y='8014'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='7085' id='10' mode='checkdropdown' name='Average Daily Gain vs Average Volatility' param='[federated.05m4dpf0b8ze5y13d3z6s04b0u8h].[none:Name:nk]' values='relevant' w='16838' x='82679' y='15099'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98142' id='3' is-fixed='true' name='Average Daily Gain vs Average Volatility' show-caption='true' w='82196' x='483' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8C83468C-E4F7-4A05-92DA-C72925E89307}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Daily Gain by GICS Sector'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{901323DB-29A6-4E96-B516-93FFBCC3DE81}' />
+    </window>
+    <window class='worksheet' name='Daily Gain by GICS Sub-Industry'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2589D913-AAE6-4E40-A03F-0CBFA2CD69BF}' />
+    </window>
+    <window class='worksheet' name='Daily Gain by Company'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{00B127CE-539C-48A9-B38C-7EC9ABA2F58B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Daily Gain by Company' />
+        <viewpoint name='Daily Gain by GICS Sector' />
+        <viewpoint name='Daily Gain by GICS Sub-Industry' />
+      </viewpoints>
+      <active id='7' />
+      <simple-id uuid='{2922E6DC-D4A4-4E4D-9F22-9C47C6ED662B}' />
+    </window>
+    <window class='worksheet' name='Average Daily Gain vs Average Volatility'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B56924C2-03F4-4728-BA90-08B7A0CBA274}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Average Daily Gain vs Average Volatility'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{05401FB7-094F-4BCC-9EBC-F20F9B7AD58B}' />
+    </window>
+  </windows>
+</workbook>

@@ -1,6 +1,5 @@
 ## Images Folder
 
-This folder will contain **all** images used in the project including: 
+This folder will contain **all** images used in the project.
 
-- cited stock images 
-- custom graphs and plots
+The images found here were created using in **"EDA and addressing research questions - Look here for Milestone 2-3.ipynb"** and consist of some different visualizations that I thought were interesting. 
